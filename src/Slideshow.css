@@ -1,0 +1,38 @@
+.slideshow-container {
+    display: flex;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 90%;
+    height: 60vh;
+  }
+  
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    margin: 10px;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: flex 0.7s ease-in;
+  }
+  
+  .panel.active {
+    flex: 3;
+  }
+  
+  .panel h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    opacity: 0;
+    font-size: 1.5rem;
+    transition: opacity 0.5s;
+  }
+  
+  .panel.active h3 {
+    opacity: 1;
+  }
+  
