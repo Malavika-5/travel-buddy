@@ -1,10 +1,9 @@
 import React from "react";
-import DestinationCard from "./DestinationCard.js";
+import DestinationCard from "./DestinationCard";
 
 function DestinationList({ destinations, removeDestination }) {
   return (
-    <div className="destination-list">
-      <h2>Your Bucket List</h2>
+    <div className="container">
       {destinations.map((destination, index) => (
         <DestinationCard
           key={index}
