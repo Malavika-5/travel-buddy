@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import Slideshow from './Slideshow';  // Import Slideshow component
 import DestinationForm from './DestinationForm';
@@ -29,13 +28,11 @@ function App() {
 
   return (
     <div>
-      <div>
+      <div className="slideshow-container">
         <Slideshow />
       </div>
-      
       <div className="container">
         <h1>Travel Bucket List Planner</h1>
-        
         <DestinationForm addDestination={addDestination} />
         <DestinationList
           destinations={destinations}
