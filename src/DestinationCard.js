@@ -29,6 +29,3 @@ function DestinationCard({ destination, index, removeDestination }) {
 }
 
 export default DestinationCard;
-
-
-
