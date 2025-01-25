@@ -90,4 +90,85 @@
   button.remove-btn:hover {
     background-color: #c82333;
   }
+
+  /* Importing the font */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting up the body */
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Container for the destination cards */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  justify-content: center;
+}
+
+/* Style for each destination card (panel) */
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin: 15px;
+  position: relative;
+  transition: all 700ms ease-in;
+  overflow: hidden;
+}
+
+/* Title inside the panel */
+.panel h3 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+  color: #fff;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* When a panel is active */
+.panel.active {
+  flex: 2;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+/* Style for smaller screens */
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel {
+    height: 200px;
+    width: 100%;
+  }
+}
+
   
