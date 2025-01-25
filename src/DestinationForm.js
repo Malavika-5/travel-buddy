@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function DestinationForm({ addDestination }) {
-  const [name, setName] = useState("");
-  const [notes, setNotes] = useState("");
-  const [image, setImage] = useState("");
-  const [priority, setPriority] = useState("High");
+  const [name, setName] = useState('');
+  const [notes, setNotes] = useState('');
+  const [image, setImage] = useState('');
+  const [priority, setPriority] = useState('High');
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const newDestination = { name, notes, image, priority };
     addDestination(newDestination);
-    setName("");
-    setNotes("");
-    setImage("");
-    setPriority("High");
+    setName('');
+    setNotes('');
+    setImage('');
+    setPriority('High');
   };
 
   return (
