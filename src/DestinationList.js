@@ -1,9 +1,9 @@
-import React from "react";
-import DestinationCard from "./DestinationCard";
+import React from 'react';
+import DestinationCard from './DestinationCard';
 
 function DestinationList({ destinations, removeDestination }) {
   return (
-    <div className="container">
+    <div className="destination-list">
       {destinations.map((destination, index) => (
         <DestinationCard
           key={index}
