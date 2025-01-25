@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import './Slideshow.css'; // Ensure you import the CSS file
 
 const Slideshow = () => {
   const panels = [
@@ -32,11 +31,11 @@ const Slideshow = () => {
   };
 
   return (
-    <div className="container">
+    <div className="slideshow-container">
       {panels.map((panel, index) => (
         <div
           key={index}
-          className={`panel ${activeIndex === index ? 'active' : ''}`}
+          className={`slideshow-panel ${activeIndex === index ? 'active' : ''}`}
           style={{ backgroundImage: `url(${panel.imageUrl})` }}
           onClick={() => handleClick(index)}
         >
