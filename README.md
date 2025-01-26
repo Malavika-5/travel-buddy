@@ -1,47 +1,68 @@
-# [Project Name] 🎯
+# Travel Buddy
 
 
 ## Basic Details
-### Team Name: [Name]
+
+This is a simple React-based Travel Bucket List Planner that handles adding, displaying, and removing destinations. 
+
+### Team Name: Aetheron
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Malavika S - College of Engineering ,Chengannur
+- Member 2: Devu A - College of Engineering ,Chengannur
+
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+This is a simple, lightweight version of the Travel Bucket List Planner website using basic web technologies. It's a great project to get familiar with JavaScript, DOM manipulation, and localStorage, while keeping things simple and effective.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Planning a trip can be overwhelming, especially when you have a long bucket list of destinations to visit. This
+project aims to simplify the process by providing a user-friendly interface to add, display, and remove destinations
+from your bucket list.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+The solution is a simple web application that allows users to add destinations to their bucket list, display the
+destinations, and remove them when they've been visited. The application uses JavaScript to handle user input
+and DOM manipulation, and localStorage to persist the data even after the user closes the browser.
+
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Frontend: React
+- Backend: None
+- Database: LocalStorage
+- Version Control: Git
+- Framework: React
+- Libraries: React Hooks, React DOM, frame motion
+- Tools Used: Visual Studio Code, Git Bash,npm,css
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ### Implementation
-For Software:
+For Software: 
 # Installation
-[commands]
+1. Clone the repository using the following command:
+bash
+git clone https://github.com/Malavika-5/travel-buddy.git
+2. Navigate to the project directory:
+bash
+cd travel-buddy
+3. Install the required packages:
+bash
+npm install
 
 # Run
-[commands]
+1.Start the development server:
+bash
+npm start
+2.Open your web browser and navigate to http://localhost:3000
+
 
 ### Project Documentation
 For Software:
