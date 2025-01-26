@@ -1,11 +1,11 @@
-/* General reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styles */
+
 body {
   font-family: 'Muli', sans-serif;
   display: flex;
@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
 }
 
-/* Main container */
+
 .container {
   width: 400px;
   max-width: 900px;
@@ -30,13 +30,12 @@ body {
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
-  /*gap: 20px;*/
   margin-top: 20px;
   background: linear-gradient(to top ,rgb(176, 218, 231),
   rgb(253, 204, 192),rgb(241, 241, 171),white);
 }
 
-/* Heading styles */
+
 h1 {
   text-align: center;
   color: #333;
@@ -48,7 +47,7 @@ h1 {
 
 
 
-/* Form styles */
+
 form {
   display: flex;
   flex-direction: column;
@@ -97,7 +96,7 @@ button.remove-btn:hover {
   background-color: #c82333;
 }
 
-/* Destination list styles */
+
 .destination-list {
   margin-top: 20px;
 }
@@ -117,7 +116,7 @@ button.remove-btn:hover {
   border-radius: 6px;
 }
 
-/* Priority classes */
+
 .priority-high {
   color: red;
 }
@@ -130,7 +129,7 @@ button.remove-btn:hover {
   color: green;
 }
 
-/* Media query for smaller screens */
+
 @media (max-width: 480px) {
   .container {
     width: 100%;
