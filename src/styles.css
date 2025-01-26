@@ -29,6 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 20px;
 }
 
 /* Heading styles */
@@ -40,46 +41,7 @@ h1 {
   font-weight: 600;
 }
 
-/* Slideshow container */
-.sildeshow-container {
-  width: 100%;
-  height: 60vh;
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-radius: 10px;
-  position: relative;
-}
 
-/* Panel styles for slideshow images */
-.panel {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  border-radius: 10px;
-  color: #fff;
-  cursor: pointer;
-  transition: all 0.7s ease-in-out;
-  position: relative;
-}
-
-.panel h3 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  margin: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out 0.4s;
-}
-
-.panel.active {
-  flex: 1;
-}
-
-.panel.active h3 {
-  opacity: 1;
-}
 
 /* Form styles */
 form {
@@ -176,3 +138,38 @@ button.remove-btn:hover {
     display: none;
   }
 }
+
+.slideshow-container {
+  display: flex;
+  width: 90vw;
+  height: 80vh;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.panel h3 {
+  font-size: 24px;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.panel.active h3 {
+  opacity: 1;
+}
+
