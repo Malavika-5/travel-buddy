@@ -65,7 +65,18 @@ npm start
 
 
 ### Project Documentation
-For Software:
+For Software: 
+- The project uses a simple React application structure with a single component for the bucket list.
+- The component uses React Hooks to manage state and handle user input.
+- The application uses localStorage to persist the data even after the user closes the browser.
+- The application has a simple UI with buttons to add, display, and remove destinations from the bucket
+list.
+- The application uses a simple CSS file to style the UI.
+- The application uses a simple JavaScript file to handle user input and DOM manipulation.
+- The application uses a simple HTML file to define the structure of the UI.
+- The application uses a simple JSON file to store the data.
+
+
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
