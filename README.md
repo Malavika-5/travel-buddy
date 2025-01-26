@@ -81,7 +81,7 @@ list.
 
 ### Project Demo
 # Video
-[![Screen Recording]](https://raw.githubusercontent.com/Malavika-5/travel-buddy/main/assets/Travel-buddy.mp4)
+[[Screen Recording]](https://drive.google.com/file/d/1GQgAZGlGuzhjJlAJpt6FrOGs1Ndn7wML/view?usp=drive_link)
 
 
 The video shows the application in action, demonstrating how the user can add, display, and remove destinations from the
