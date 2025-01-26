@@ -78,23 +78,11 @@ list.
 
 
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-
-
-
 
 ### Project Demo
 # Video
 ![Screen Recording](https://raw.githubusercontent.com/Malavika-5/travel-buddy/main/assets/Travel-buddy.mp4)
+
 The video shows the application in action, demonstrating how the user can add, display, and remove destinations from the
 bucket list. The video also shows how the application persists the data even after the user closes the browser
 
