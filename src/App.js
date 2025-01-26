@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Slideshow from './Slideshow';  // Import Slideshow component
+import Slideshow from './Slideshow';   
 import DestinationForm from './DestinationForm';
 import DestinationList from './DestinationList';
 
